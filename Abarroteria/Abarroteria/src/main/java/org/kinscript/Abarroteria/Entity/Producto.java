@@ -8,12 +8,10 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Producto {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String Nombre;
-    private double Precio;
-    private int Cantidad;
+    private String nombre;
+    private Double precio;
+    private Integer cantidad;
 }
